@@ -40,4 +40,4 @@ if uploaded_file is not None:
         elif label == 2:
         	st.sidebar.write("**Pneumonia**")
 
-st.caption('Project by **Montasser Ben Arfia**.')
+st.sidebar.write('Project by **Montasser Ben Arfia**.')
