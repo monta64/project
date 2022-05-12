@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
-from tensorflow import keras
+import keras
 
 st.markdown('<h1 '+ 'style="  color: #191970;  font-family: verdana; font-size: 300%;"'+'>Covid detector from CT scans</h1>', unsafe_allow_html=True)
 
